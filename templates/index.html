@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBE Tools Page</title>
+    <link rel="stylesheet" href="../static/css/cbe-styles.css">
+</head>
+    <body>
+
+        <!-- HEADER Start -->
+        <header>
+            <div class="cbe-header-content">
+                
+                <div class="cbe-header-logo">
+                    <img src="../static/img/CBE-logo-2019-white.png" alt="CBE logo">
+                </div>
+                
+                <div class="cbe-tool-title"><a href="/">webtool-title</a></div>
+
+                <nav class="cbe-header-nav">
+                    <a href="about.html">About</a>
+                    <a href="#">Documentation</a>
+                    <a href="https://cbe.berkeley.edu/resources/tools/">More CBE Tools</a>
+                </nav>
+            </div>
+        </header>
+        <!-- HEADER End -->
+
+
+        <div class="cbe-content-container" style="height: 450px">
+            <!-- Placeholder for actual tool container -->
+        </div>
+
+
+        <!-- FOOTER Start -->
+        <footer>
+            <div class="cbe-footer-content">
+                <div class="cbe-footer-logo">
+                    <!-- <img src="img/CBE-logo-2019-artwork-blue-background.png" alt="CBE Logo"> -->
+                    <img src="../static/img/ucb-logo-2024.png" alt="UC Berkeley Logo">
+                </div>
+
+                <nav class="cbe-footer-links">
+                    <a href="https://cbe.berkeley.edu/about-us/contact/" target="_blank">Feedback & Support</a>
+                    <a href="#">Changelog</a>
+                </nav>
+
+                <nav class="cbe-social-links">
+                    <a href="#"><img src="../static/img/github-white-transparent.png" alt="GitHub"></a>
+                    <a href="#"><img src="../static/img/linkedin-white.png" alt="LinkedIn"></a>
+                    <!-- <a href="#"><img src="img/youtube-white-trans-cropped.png" alt="YouTube"></a> -->
+                </nav>
+
+                <div class="cbe-citation-info">
+                    <div>
+                        <b>Please cite us if you use this software:</b> 
+                        <div>
+                            Tartarini, F., Schiavon, S., Cheung, T., Hoyt, T., 2020. CBE Thermal Comfort Tool: online tool for thermal comfort calculations and visualizations. SoftwareX 12, 100563.
+                            <a class="cbe-doi-link" href="https://doi.org/10.1016/j.softx.2020.100563" target="_blank">https://doi.org/10.1016/j.softx.2020.100563</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="cbe-footnotes">
+                    <p>Copyright © <span id="year"></span>  The Center for the Built Environment and UC Regents. All rights reserved.</p>
+
+                    <script>
+                        // Set the current year
+                        document.getElementById('year').textContent = new Date().getFullYear();
+                    </script>
+
+                    <div class="cbe-version-license">
+                        <div>Version X.YY</div>
+                        <a class="mit-license-badge" href="https://opensource.org/licenses/MIT">
+                            <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER Start -->
+    </body>
+</html>
