@@ -1,8 +1,8 @@
 # CBE Tool Templates
 
 The content of this repository should be used as a reference for:
-- designing the front-end of CBE tools (e.g., consistent header and footers) using [HTML](templates) and [CSS](static/css/cbe-styles.css) styling templates
-- setting up a proper project structure, incl. a detailed README and [documentation](docs)
+- Designing the front-end of CBE tools (e.g., consistent header and footers) using [HTML](templates) and [CSS](static/css/cbe-styles.css) styling templates
+- Setting up a proper project structure, incl. a detailed README and [documentation](docs)
 
 ### Repository structure
 
@@ -56,10 +56,18 @@ Briefly describe what your project does and its purpose.
 Instructions on how to set up the project locally.
 
 ### Prerequisites
-Software or tools required before installation.
+Software or tools required before installation. <br>
+Make sure `requirements.txt` is up-to-date.
 
 ### Installation
-Step-by-step guide on how to install and set up the project.
+Step-by-step guide on how to install and set up the project, incl. code blocks.
+
+```python
+def welcome(tool-name):
+    print(f"Welcome to the {tool-name} GitHub page!")
+
+welcome("cbe-webtool-name")
+```
 
 ## Usage OR Documentation
 Examples of how to run or use the tool, including commands and screenshots. <br>
@@ -74,7 +82,8 @@ See open [issues](https://github.com/your-username/your-repo/issues) for a full 
 Clear guidelines for contributing to the tool.
 
 ## License
-The licensing information for the project.
+The licensing information for the project. <br>
+An overview of common licenses for open-source projects can be found [here](https://choosealicense.com/licenses/).
 
 ## Contact
 Information on how to contact the project maintainer(s).
