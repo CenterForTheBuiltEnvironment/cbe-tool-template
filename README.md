@@ -15,9 +15,11 @@
     <br />
     <a href="https://github.com/CenterForTheBuiltEnvironment/cbe-tool-template">View Demo</a>
     ·
-    <a href="https://github.com/CenterForTheBuiltEnvironment/cbe-tool-template/blob/main/.github/ISSUE_TEMPLATE/issue--bug-report.md">Report Bug</a>
+    <a href="https://github.com/CenterForTheBuiltEnvironment/cbe-tool-template/issues/new?labels=bug&template=issue--bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/CenterForTheBuiltEnvironment/cbe-tool-template/blob/main/.github/ISSUE_TEMPLATE/feature-request.md">Request Feature</a>
+    <a href="https://github.com/CenterForTheBuiltEnvironment/cbe-tool-template/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
+
+
   </p>
 </div>
 
