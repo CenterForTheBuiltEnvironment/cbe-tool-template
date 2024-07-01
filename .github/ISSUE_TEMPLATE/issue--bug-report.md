@@ -1,6 +1,6 @@
 ---
-name: "Issue: Bug report \U0001F41E"
-about: Create a report to help us improve
+name: 'Issue: Bug report'
+about: Create a report to help us improve.
 title: 'bug: [short bug description]'
 labels: bug
 assignees: ''

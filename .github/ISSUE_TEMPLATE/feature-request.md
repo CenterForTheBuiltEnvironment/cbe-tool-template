@@ -1,8 +1,8 @@
 ---
-name: "Feature request \U0001F680"
-about: Suggest an idea for this project
+name: Feature request
+about: Suggest a new feature for this tool.
 title: 'feat: [short description of proposed feature]'
-labels: enhancement
+labels: bug, enhancement
 assignees: ''
 
 ---
