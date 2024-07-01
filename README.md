@@ -15,9 +15,9 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/CenterForTheBuiltEnvironment/cbe-templates/blob/main/.github/ISSUE_TEMPLATE/issue--bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/CenterForTheBuiltEnvironment/cbe-templates/blob/main/.github/ISSUE_TEMPLATE/feature-request.md">Request Feature</a>
   </p>
 </div>
 
@@ -91,6 +91,7 @@ def welcome(tool-name):
 welcome("cbe-webtool-name")
 ```
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -153,7 +154,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Information on how to contact the tool maintainer(s).
 We tend to not provide detailed contact information, but to use GitHub Discussions instead.
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@your_linkedin](https://linkedin.com/your_username) - email@example.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
