@@ -5,7 +5,7 @@ body {
 }
 
 
-/* HEADER Specific */
+/* HEADER ---------------------------------------- */
 
 header {
     background-color: #fafafa;
@@ -32,6 +32,8 @@ header {
 .cbe-tool-title {
     font-size: 24pt;
     font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
     color: #0c2772;
     /* border: 1px solid grey; */
 }
@@ -43,8 +45,10 @@ header {
 
 .cbe-header-nav {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px 40px;
+    gap: 10px 40px;
+    overflow: hidden;
     /* border: 1px solid grey; */
 }
 
@@ -53,13 +57,67 @@ header {
     text-decoration: none;
 }
 
-/* CONTENT Specific */
+
+/* CBE TOOL DROPDOWN ----------------------------------------  */
+
+.cbe-tool-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.cbe-tool-dropdown .dropbtn {
+    color: #3fbbec;
+    font-size: inherit;
+    border: none;
+    outline: none;
+    padding: inherit;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.cbe-tool-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fafafa;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius:10px
+}
+
+.cbe-tool-dropdown-content a {
+    float: none;
+    font-size: 11pt;
+    color: #0077c2;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.cbe-tool-dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.cbe-tool-dropdown:hover .cbe-tool-dropdown-content {
+    display: block;
+    border-radius: 5px;
+}
+
+
+
+
+/* CONTENT ----------------------------------------  */
 .content-container {
     height: 450px;
 }
 
 
-/* FOOTER Specific */
+
+
+
+/* FOOTER ---------------------------------------- */
 
 footer {
     color: white;
@@ -75,10 +133,10 @@ footer {
 }
 
 .cbe-footer-logo {
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
-    gap: 25px 50px;
+    gap: 25px 40px;
     justify-content: left;
     align-self: center;
     /* border: 1px solid grey; */
@@ -94,11 +152,18 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px 50px;
-    width: 15%;
+    width: 20%;
     justify-content: center;
     align-self: center;
-    /* padding-left: 20px; */
+    padding-left: 10px;
+    padding-right: 10px;
     /* border: 1px solid grey;  */
+}
+
+.cbe-footer-links a {
+    color: white;
+    font-size: 11pt;
+    text-decoration: none;
 }
 
 .cbe-social-links {
@@ -111,21 +176,15 @@ footer {
     /* border: 1px solid grey;  */
 }
 
-.cbe-footer-links a {
-    color: white;
-    font-size: 11pt;
-    text-decoration: none;
-}
-
 .cbe-social-links img {
     max-height: 45px;
 }
 
 .cbe-citation-info {
     margin-left: auto;
-    padding-left: 50px;
+    padding-left: 20px;
     font-size: 10pt;
-    width: 35%;
+    width: 30%;
     text-align: start;
     /* border: 1px solid grey;  */
 }
@@ -142,7 +201,7 @@ footer {
     font-size: 8pt;
     background-color: #0c2772;
     padding: 12px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 
@@ -156,3 +215,4 @@ footer {
 .mit-license-badge img {
     max-height: 12pt;
 }
+

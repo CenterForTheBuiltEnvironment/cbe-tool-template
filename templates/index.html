@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CBE Tools Page</title>
     <link rel="stylesheet" href="../static/css/cbe-styles.css">
-     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> <!-- to include 'Open Sans' -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"> <!--to include 'Open Sans' -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
     <body>
 
@@ -22,7 +23,16 @@
                 <nav class="cbe-header-nav">
                     <a href="about.html">About</a>
                     <a href="#">Documentation</a>
-                    <a href="https://cbe.berkeley.edu/resources/tools/">More CBE Tools</a>
+                    <!-- <a href="https://cbe.berkeley.edu/resources/tools/">More CBE Tools</a> -->
+                    <div class="cbe-tool-dropdown">
+                        <button class="dropbtn">More CBE Tools <i class="fa fa-sort"></i></button>
+                            <div class="cbe-tool-dropdown-content">
+                                <a href="#">CBE Clima Tool</a>
+                                <a href="#">CBE Comfort Tool</a>
+                                <a href="#">CBE Fan Tool</a>
+                                <a href="#">pythermalcomfort</a>
+                            </div>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -67,7 +77,7 @@
 
             
             <div class="cbe-footnotes">
-                <p>Copyright © <span id="year"></span>  The Center for the Built Environment and UC Regents. All rights reserved.</p>
+                <div>Copyright © <span id="year"></span>  The Center for the Built Environment and UC Regents. All rights reserved.</div>
 
                 <script>
                     // Set the current year
