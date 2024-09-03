@@ -105,6 +105,23 @@ header {
     border-radius: 5px;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .cbe-header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cbe-header-logo {
+        margin-bottom: 10px;
+    }
+
+    .cbe-tool-title,
+    .cbe-header-nav {
+        margin-top: 10px;
+    }
+}
+
 
 
 
@@ -125,19 +142,19 @@ footer {
 
 .cbe-footer-content {
     display: flex;
-    align-items: start;
+    align-items: center;
     background-color: #0077c2;
     padding: 12px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .cbe-footer-logo {
-    width: 30%;
+    /* width: 30%; */
     display: flex;
     flex-wrap: wrap;
     gap: 25px 40px;
-    justify-content: left;
+    justify-content: space-around;
     align-self: center;
     /* border: 1px solid grey; */
 }
@@ -149,14 +166,13 @@ footer {
 
 .cbe-footer-links {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px 50px;
-    width: 20%;
+    width: 15%;
     justify-content: center;
-    align-self: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
     /* border: 1px solid grey;  */
 }
 
@@ -184,7 +200,7 @@ footer {
     margin-left: auto;
     padding-left: 20px;
     font-size: 10pt;
-    width: 30%;
+    width: 35%;
     text-align: start;
     /* border: 1px solid grey;  */
 }
@@ -214,5 +230,33 @@ footer {
 
 .mit-license-badge img {
     max-height: 12pt;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .cbe-footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cbe-footer-logo,
+    .cbe-footer-links,
+    .cbe-social-links,
+    .cbe-citation-info {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cbe-footer-links,
+    .cbe-social-links {
+        justify-content: center;
+    }
+
+    .cbe-citation-info {
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
 
