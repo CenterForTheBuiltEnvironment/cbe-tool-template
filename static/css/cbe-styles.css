@@ -105,11 +105,15 @@ header {
     border-radius: 5px;
 }
 
-/* Media query for mobile devices */
+
 @media (max-width: 768px) {
     .cbe-header-content {
         flex-direction: column;
         align-items: center;
+    }
+
+    .cbe-tool-title {
+        font-size: 20pt;
     }
 
     .cbe-header-logo {
@@ -119,6 +123,19 @@ header {
     .cbe-tool-title,
     .cbe-header-nav {
         margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .cbe-tool-title {
+        font-size: 16pt;
+    }
+
+    .cbe-header-nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
     }
 }
 
@@ -142,6 +159,7 @@ footer {
 
 .cbe-footer-content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #0077c2;
     padding: 12px;
@@ -153,8 +171,9 @@ footer {
     /* width: 30%; */
     display: flex;
     flex-wrap: wrap;
+    width: 25%;
     gap: 25px 40px;
-    justify-content: space-around;
+    justify-content: center;
     align-self: center;
     /* border: 1px solid grey; */
 }
@@ -168,11 +187,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px 50px;
-    width: 15%;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
     /* border: 1px solid grey;  */
 }
 
@@ -185,7 +201,6 @@ footer {
 .cbe-social-links {
     display: flex;
     flex-wrap: wrap;
-    width: 20%;
     gap: 10px 50px;
     justify-content: center;
     align-self: center;
@@ -197,7 +212,6 @@ footer {
 }
 
 .cbe-citation-info {
-    margin-left: auto;
     padding-left: 20px;
     font-size: 10pt;
     width: 35%;
@@ -257,6 +271,12 @@ footer {
     .cbe-citation-info {
         margin-left: 0;
         padding-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .cbe-footnotes {
+        padding: 10px;
     }
 }
 
